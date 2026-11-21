@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Health Monitor</h1>
+    <p>Small daily check-ins. Be kind to yourself.</p>
+
+    <hr>
+
+    <h2>💧 Water</h2>
+    <p>How many glasses did you drink today?</p>
+    <input type="number" id="water-input" placeholder="e.g. 6" min="0">
+    <button id="save-water">Save</button>
+    <p id="water-status">Not logged yet.</p>
+
+    <hr>
+
+    <h2>😴 Sleep</h2>
+    <p>How many hours did you sleep last night?</p>
+    <input type="number" id="sleep-input" placeholder="e.g. 7" min="0">
+    <button id="save-sleep">Save</button>
+    <p id="sleep-status">Not logged yet.</p>
+
+    <hr>
+
+    <h2>🥗 Food</h2>
+    <p>Did you eat three proper meals today?</p>
+    <button id="save-food-yes">Yes, I did</button>
+    <button id="save-food-no">No, not really</button>
+    <p id="food-status">Not logged yet.</p>
+
+    <hr>
+
+    <h2>Today's Summary</h2>
+    <p id="summary">Complete your check-ins above to see your summary.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
